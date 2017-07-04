@@ -1,6 +1,5 @@
 Revision history for Perl extension Acme-Undead
 
-{{$NEXT}}
-
-    - original version
+0.01      Tue, Jul 4 19:00:00+0900 2017
+          first release, Acme-Undead
 
