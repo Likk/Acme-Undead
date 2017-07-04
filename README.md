@@ -2,10 +2,9 @@ This is Perl module Acme-Undead.git
 
 INSTALLATION
 
-WebService::Onelogin installation is straightforward. If your cpanm is set up,
-you should just be able to do
+Acme-Undead installation is straightforward. If your cpanm is set up, you should just be able to do
 
-    % cpanm install Acme-Undead
+% cpanm install Acme-Undead
 
 DOCUMENTATION
 
@@ -44,3 +43,4 @@ So you can do:
 to read the documentation online with your favorite pager.
 
 likkradyus
+
