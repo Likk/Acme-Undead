@@ -1,22 +1,46 @@
-# NAME
+This is Perl module Acme-Undead.git
 
-Acme::Undead - It's new $module
+INSTALLATION
 
-# SYNOPSIS
+WebService::Onelogin installation is straightforward. If your cpanm is set up,
+you should just be able to do
 
-    use Acme::Undead;
+    % cpanm install Acme-Undead
 
-# DESCRIPTION
+DOCUMENTATION
 
-Acme::Undead is ...
+NAME
+      Acme::Undead - The Undead is not die!
 
-# LICENSE
+SYNOPSIS
+      use Acme::Undead;
+      die('undead is not die');
+      print 'Hell world'; #Hell world
 
-Copyright (C) likkradyus.
+      no Acme::Undead;
+      die() #died
 
-This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself.
+OVERRIDE METHODS
+  die
+      undead is not die!
 
-# AUTHOR
+  sleep
+      undead is not sleeping
 
-likkradyus &lt;perl{at}li.que.jp>
+  bless
+      the god bless clean undead auras.
+
+AUTHOR
+      likkradyus E<lt>perl {at} li {dot} que {dot} jpE<gt>
+
+LICENSE
+      This library is free software; you can redistribute it and/or modify
+      it under the same terms as Perl itself.
+
+So you can do:
+
+    % perldoc -t Acme::Undead
+
+to read the documentation online with your favorite pager.
+
+likkradyus
