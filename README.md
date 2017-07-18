@@ -1,17 +1,8 @@
-This is Perl module Acme-Undead.git
-
-# INSTALLATION
-
-Acme-Undead installation is straightforward. If your cpanm is set up, you should just be able to do
-`% cpanm install Acme-Undead`
-
-# DOCUMENTATION
-
-## NAME
+# NAME
 
     Acme::Undead - The Undead is not die!
 
-## SYNOPSIS
+# SYNOPSIS
 
     use Acme::Undead;
     die('undead is not die');
@@ -23,29 +14,32 @@ Acme-Undead installation is straightforward. If your cpanm is set up, you should
 
     die() #died;
 
-## DESCRIPTION
+# DESCRIPTION
 
     Acme::Undead is export routines, die(), bless() and sleep().
     Use Acme::Undead when dont die at die(), die at bless() and not sleep at sleep().
 
-## OVERRIDE METHODS
+# OVERRIDE METHODS
 
-- die
-: undead is not die!
+## die
 
-- sleep
-: undead is not sleeping
+    undead is not die!
 
-- bless
-: the god bless clean undead auras.
+## sleep
 
-## LICENSE
+    undead is not sleeping
+
+## bless
+
+    the god bless clean undead auras.
+
+# LICENSE
 
 Copyright (C) likkradyus.
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
 
-## AUTHOR
+# AUTHOR
 
     likkradyus E<lt>perl {at} li {dot} que {dot} jpE<gt>
